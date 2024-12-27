@@ -1,0 +1,43 @@
+
+C:\Users\pc>git config --global user.name "charlesdjade"
+
+C:\Users\pc>git config --global user.email "communicationh4@gmail.com"
+
+C:\Users\pc>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=charlesdjade
+user.email=communicationh4@gmail.com
+
+C:\Users\pc>mkdir mon projet avant
+
+C:\Users\pc>cd mon-projet avant
+Le chemin d’accès spécifié est introuvable.
+
+C:\Users\pc>git init
+Initialized empty Git repository in C:/Users/pc/.git/
+
+C:\Users\pc>echo. > README.md #commande
+
+C:\Users\pc>echo "mon premier travail comme test" > README.md
+
+C:\Users\pc>git add README.md
+
+C:\Users\pc>git commit -m "Premier commit"
+[master (root-commit) 31829b7] Premier commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\pc>
